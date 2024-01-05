@@ -1,6 +1,6 @@
 # Question3
 Question
-In this problem, you will use Rock dataset located here: https://osf.io/d6b9y/Links to an external site.. 
+In this problem, you will use Rock dataset located here: https://osf.io/d6b9y to an external site.. 
 
 1. Apply PCA to the images from folder '360 Rocks'. How many components do you need to preserve 95% of the variance? [3 points]
 2. Plot 10 images of your choice in the original form (without PCA) and then plot their reconstruction (projection in the original space) after you kept 95% of variance using PCA. [3points]
