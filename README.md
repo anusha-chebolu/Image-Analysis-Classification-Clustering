@@ -8,7 +8,7 @@ In this problem, you will use Rock dataset located here: https://osf.io/d6b9y to
    help us identify different clusters.
   A. Use PCA to reduce dimensionality to only 2 dimensions. How much of the variance is explained with the first two principal components? [2 points].
   B. Plot a 2D scatter plot of the images spanned by the first two principal components. Each image will be represented with a dot. Make the color of the dot correspond to the image       
-     category (so you will have three different colors). Then add some rock images to the visualization to better understand what features in the images are accounting for the majority of       variance in the data (your visualization should look similar to the one after line 71 in this file https://github.com/ageron/handson-ml3/blob/main/08_dimensionality_reduction.ipynbLinks to an external site. but with images of rocks instead of MNIST digits). Repeat the process and create the same type of plots for 
+     category (so you will have three different colors). Then add some rock images to the visualization to better understand what features in the images are accounting for the majority of       variance in the data (your visualization should look similar to the one after line 71 in this file https://github.com/ageron/handsonml3/blob/main/08_dimensionality_reduction.ipynbLinks to an external site. but with images of rocks instead of MNIST digits). Repeat the process and create the same type of plots for 
      t-SNE, LLE and MDS. [6 points]
   D. Which of the visualizations do you prefer?[1 point]
 4. Now let's see if these dimensionality reduction techniques can give us similar features to those that humans use to judge the images. File mds_360.txt contains 8 features for each of 
@@ -23,7 +23,7 @@ In this problem, you will use Rock dataset located here: https://osf.io/d6b9y to
 6. Cluster the 360 images using EM.
   A. Same as in the previous question, to speed up the algorithm, use PCA to reduce the dimensionality of the dataset to two. Determine the number of clusters using one of the techniques 
      we discussed in class. [4 points]
-  B. Visualize the clusters in a similar way to the visualization after line 28 here: https://github.com/ageron/handson-ml3/blob/main/09_unsupervised_learning.ipynb to an external   
+  B. Visualize the clusters in a similar way to the visualization after line 28 here: https://github.com/ageron/handsoml3/blob/main/09_unsupervised_learning.ipynb to an external   
      site., but color each dot based on the clusters it belongs to using the labels taken from the filename as in question 3  (I, M and S). [4 points]
   C. Use the model to generate 20 new rocks (using the sample() method), and visualize them in the original image space (since you used PCA, you will need to use its inverse_transform() 
      method).  [4 points]
