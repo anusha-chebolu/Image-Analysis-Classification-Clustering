@@ -1,4 +1,4 @@
-# Question3
+# RockImageAnalysis-ClassificationAndClustering
 Question
 In this problem, you will use Rock dataset located here: https://osf.io/d6b9y to an external site.. 
 
